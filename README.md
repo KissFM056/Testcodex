@@ -28,3 +28,9 @@ Las fuentes de Google son opcionales; hay fuentes locales de reserva. No requier
 - `tests/`: comprobaciones de puntuación y combinaciones.
 
 El selector de retos cambia el estilo que se premia y limpia el resultado anterior. «Empezar de nuevo» restaura el avatar, las prendas y el reto iniciales. La partida se mantiene en memoria mientras la página está abierta.
+
+## Jugar desde el navegador
+
+La publicación se automatiza con GitHub Actions al actualizar `main`.
+En GitHub, activa una vez **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+Tras finalizar el flujo «Publicar Dress UP Faire», el juego estará en https://kissfm056.github.io/Testcodex/.
